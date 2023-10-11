@@ -1,0 +1,13 @@
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\obj\Debug\GeneradorDeContraseñas.FE.csproj.AssemblyReference.cache
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\obj\Debug\GeneradorDeContraseñas.FE.Formulario1.resources
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\obj\Debug\GeneradorDeContraseñas.FE.Properties.Resources.resources
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\obj\Debug\GeneradorDeContraseñas.FE.csproj.GenerateResource.cache
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\obj\Debug\GeneradorDeContraseñas.FE.csproj.CoreCompileInputs.cache
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\bin\Debug\GeneradorDeContraseñas.FE.exe.config
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\bin\Debug\GeneradorDeContraseñas.FE.exe
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\bin\Debug\GeneradorDeContraseñas.FE.pdb
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\bin\Debug\GeneradorDeContraseñas.BE.dll
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\bin\Debug\GeneradorDeContraseñas.BE.pdb
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\obj\Debug\GeneradorDeContraseñas.FE.csproj.CopyComplete
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\obj\Debug\GeneradorDeContraseñas.FE.exe
+C:\Users\Mauro\source\repos\GeneradorDeContraseñas\GeneradorDeContraseñas.FE\obj\Debug\GeneradorDeContraseñas.FE.pdb
