@@ -1,2 +1,2 @@
 # GeneradorDeContrasenas
-Crea contraseñas con requerimientops
+Crea contraseñas con requerimientos
