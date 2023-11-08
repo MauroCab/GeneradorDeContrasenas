@@ -38,6 +38,8 @@ namespace GeneradorDeContraseñas.FE
             this.txtbxLongitud = new System.Windows.Forms.TextBox();
             this.btGenerar = new System.Windows.Forms.Button();
             this.txtbxResultado = new System.Windows.Forms.TextBox();
+            this.lblAdv = new System.Windows.Forms.Label();
+            this.lblAst = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // chkMayusculas
@@ -51,6 +53,7 @@ namespace GeneradorDeContraseñas.FE
             this.chkMayusculas.TabIndex = 0;
             this.chkMayusculas.Text = "Usar Mayúsculas";
             this.chkMayusculas.UseVisualStyleBackColor = false;
+            this.chkMayusculas.CheckedChanged += new System.EventHandler(this.chkMayusculas_CheckedChanged);
             // 
             // chkNumeros
             // 
@@ -62,6 +65,7 @@ namespace GeneradorDeContraseñas.FE
             this.chkNumeros.TabIndex = 1;
             this.chkNumeros.Text = "Usar Números";
             this.chkNumeros.UseVisualStyleBackColor = true;
+            this.chkNumeros.CheckedChanged += new System.EventHandler(this.chkNumeros_CheckedChanged);
             // 
             // chkSimbolos
             // 
@@ -73,6 +77,7 @@ namespace GeneradorDeContraseñas.FE
             this.chkSimbolos.TabIndex = 2;
             this.chkSimbolos.Text = "Usar Símbolos";
             this.chkSimbolos.UseVisualStyleBackColor = true;
+            this.chkSimbolos.CheckedChanged += new System.EventHandler(this.chkSimbolos_CheckedChanged);
             // 
             // lblTitulo
             // 
@@ -112,11 +117,12 @@ namespace GeneradorDeContraseñas.FE
             this.txtbxLongitud.Name = "txtbxLongitud";
             this.txtbxLongitud.Size = new System.Drawing.Size(242, 26);
             this.txtbxLongitud.TabIndex = 6;
+            this.txtbxLongitud.TextChanged += new System.EventHandler(this.txtbxLongitud_TextChanged);
             // 
             // btGenerar
             // 
             this.btGenerar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btGenerar.Location = new System.Drawing.Point(280, 181);
+            this.btGenerar.Location = new System.Drawing.Point(278, 191);
             this.btGenerar.Name = "btGenerar";
             this.btGenerar.Size = new System.Drawing.Size(157, 75);
             this.btGenerar.TabIndex = 7;
@@ -136,11 +142,33 @@ namespace GeneradorDeContraseñas.FE
             this.txtbxResultado.TabIndex = 8;
             this.txtbxResultado.Text = "Su contraseña aparecerá aquí";
             // 
+            // lblAdv
+            // 
+            this.lblAdv.AutoSize = true;
+            this.lblAdv.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdv.ForeColor = System.Drawing.Color.Red;
+            this.lblAdv.Location = new System.Drawing.Point(323, 164);
+            this.lblAdv.Name = "lblAdv";
+            this.lblAdv.Size = new System.Drawing.Size(0, 22);
+            this.lblAdv.TabIndex = 9;
+            // 
+            // lblAst
+            // 
+            this.lblAst.AutoSize = true;
+            this.lblAst.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAst.ForeColor = System.Drawing.Color.Red;
+            this.lblAst.Location = new System.Drawing.Point(566, 124);
+            this.lblAst.Name = "lblAst";
+            this.lblAst.Size = new System.Drawing.Size(0, 22);
+            this.lblAst.TabIndex = 10;
+            // 
             // Formulario1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(723, 385);
+            this.Controls.Add(this.lblAst);
+            this.Controls.Add(this.lblAdv);
             this.Controls.Add(this.txtbxResultado);
             this.Controls.Add(this.btGenerar);
             this.Controls.Add(this.txtbxLongitud);
@@ -168,6 +196,8 @@ namespace GeneradorDeContraseñas.FE
         private System.Windows.Forms.TextBox txtbxLongitud;
         private System.Windows.Forms.Button btGenerar;
         private System.Windows.Forms.TextBox txtbxResultado;
+        private System.Windows.Forms.Label lblAdv;
+        private System.Windows.Forms.Label lblAst;
     }
 }
 
